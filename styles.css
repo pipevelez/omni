@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de la cabecera */
+header {
+    background-color: #02b875;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Alineación de elementos al extremo */
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-width: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.social-links a i {
+    margin-right: 5px;
+}
+
+/* Estilos del héroe */
+.hero {
+    background-color: #eaeaea;
+    padding: 40px 0;
+    text-align: center;
+    color: #444;
+}
+
+.hero h2 {
+    margin-bottom: 40px;
+}
+
+/* Estilos de las características */
+.features {
+    background-color: #f4f4f4;
+    
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #02b875;
+}
+
+/* Estilos del botón */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #02b875;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #028e68;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la presentación */
+.presentation {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.presentation .container {
+    padding: 50px 0;
+}
+
+.values {
+    background-color: #eaeaea;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.values h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.values p {
+    margin-bottom: 20px;
+    padding: 30px 0; /* Reducido el padding vertical */
+}
+
+.values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 300px;
+    width: auto;
+}
+
+.slick-slide img {
+    margin: 0 auto;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni - Bot de WhatsApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Agregamos el CSS de Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="logo.png" alt="Logo de Omni">
+        <h1>Omni</h1>
+        <div class="social-links">
+            <a href="https://www.facebook.com/tupagina" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tupagina" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="header-text">
+            <p>Bot de WhatsApp - Atención al Cliente y Cierre de Ventas</p>
+        </div>
+    </header>
+
+    <!-- Galería de imágenes -->
+    <section class="presentation">
+        <div class="container">
+            <div class="gallery">
+                <!-- Aquí puedes agregar tus imágenes -->
+                <div><img src="imagen1.jpeg" alt="Imagen 1"></div>
+                <div><img src="imagen2.jpeg" alt="Imagen 2"></div>
+                <div><img src="imagen3.jpeg" alt="Imagen 3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido principal -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenido a Omni</h2>
+            <p>¡Hola y bienvenido a Omni! 💬 En nuestro espacio digital, encontrarás la solución definitiva para llevar tu atención al cliente al siguiente nivel. Con nuestro bot de WhatsApp, podrás ofrecer respuestas rápidas, cerrar ventas de manera eficiente y garantizar una experiencia excepcional para tus clientes. ¡Descubre el poder de la automatización con Omni! 📱💡💰</p>
+            <a href="https://wa.me/573026021782" class="btn" target="_blank">Habla con Omni <i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="features">
+        <div class="container">
+            <h2>Características</h2>
+            <!-- Agrega tus características aquí -->
+            <div class="feature">
+                <i class="fas fa-comments"></i>
+                <h3>Respuestas Rápidas</h3>
+                <p>Con Omni, obtén respuestas rápidas y precisas las 24 horas del día, los 7 días de la semana. 🕒🌟 Nuestro bot de WhatsApp está siempre activo para atender las consultas de tus clientes al instante, garantizando una experiencia de atención excepcional en cualquier momento del día o de la noche. 💬🚀</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-handshake"></i>
+                <h3>Cierre de Ventas Efectivo</h3>
+                <p>En Omni, no solo cerramos ventas, las aseguramos. 💼✅ Nuestro bot de WhatsApp está diseñado para guiar a tus clientes a través del proceso de compra de manera eficiente y persuasiva. Desde la generación de leads hasta la conversión final, nuestra plataforma maximiza tus oportunidades de venta y garantiza resultados tangibles. 📈💰</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-lock"></i>
+                <h3>Seguro y Confiable</h3>
+                <p>La seguridad y la confiabilidad son nuestras principales prioridades en Omni. 🔒✨ Utilizamos tecnología avanzada para proteger la privacidad de tus clientes y la integridad de tus datos. Con características de encriptación de extremo a extremo y medidas de seguridad robustas, puedes tener la tranquilidad de que tus interacciones con los clientes están protegidas en todo momento. 🛡️💡</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Valores del Bot -->
+    <section class="values">
+        <div class="container">
+            <h2>Descubre los Beneficios de Omni</h2>
+            <p>Aprovecha todo lo que Omni tiene para ofrecerte:</p>
+            <ul>
+                <li>🚀 Automatización para respuestas rápidas las 24/7.</li>
+                <li>💼 Cierre de ventas efectivo y garantizado.</li>
+                <li>🔒 Seguridad y confiabilidad en tus interacciones.</li>
+                <li>🔄 Actualizaciones constantes para optimizar tu experiencia.</li>
+            </ul>
+            <p>¡Obtén tu bot de WhatsApp por solo $300.000 pesos y disfruta de nuestros servicios de administración y actualizaciones por $100.000 adicionales! Aceptamos pagos a través de Bancolombia y Nequi.</p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>Derechos de autor &copy; 2024 Omni - Bot de WhatsApp</p>
+        </div>
+    </footer>
+
+    <!-- Agregamos la biblioteca jQuery y Slick Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Script para inicializar el carrusel de imágenes -->
+    <script>
+        $(document).ready(function(){
+            $('.gallery').slick({
+                autoplay: true, // Reproducción automática
+                autoplaySpeed: 4000, // Velocidad de reproducción en milisegundos (4 segundos)
+                dots: false, // Oculta los puntos indicadores de navegación
+                arrows: true, // Muestra las flechas de navegación
+                infinite: true, // Permite que el carrusel se repita infinitamente
+                speed: 500, // Velocidad de transición en milisegundos
+                slidesToShow: 1, // Muestra 1 imagen a la vez
+                slidesToScroll: 1 // Desplaza 1 imagen a la vez
+            });
+        });
+    </script>
+</body>
+</html>
